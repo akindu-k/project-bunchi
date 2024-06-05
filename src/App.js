@@ -1,14 +1,10 @@
 import './App.css';
-import PartOne from './components/PartOne';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>I am learning react!</h1>
-      <PartOne/>
-      <PartOne/>
-      <PartOne/>
-      <PartOne/>
+      <Home/>
 
     </div>
   );
